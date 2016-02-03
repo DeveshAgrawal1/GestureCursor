@@ -6,3 +6,5 @@ The main functionality used to find out the hand from the total video feed is co
 rest of the scene (this is very unstable as it is largely dependent on the surroundings' color and lightings, but it is just a small demonstration nonetheless). However, the right color can be found out by tweaking the values in eroding and dilating functions.
 
 The program then determines the topmost point in the hull found, and uses it to determine the finger.
+
+Note: The program currently uses win32api to move the cursor, so it would work on Windows. To test it on Linux please edit it accordingly.
